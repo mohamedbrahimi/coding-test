@@ -2,34 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea5f748a-dcd8-4783-9fd7-e2fc5d1fcae1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/endpoints.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/endpoints.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/app/condig/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/condig/constants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/app/condig/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/condig/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/app/condig/jwt.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/condig/jwt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/app/condig/mongoose.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/condig/mongoose.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/app/condig/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/condig/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/app/controllers/auth.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/controllers/auth.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/app/controllers/crud.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/controllers/crud.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/app/controllers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/controllers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/app/helpers/book.helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/helpers/book.helper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/app/helpers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/helpers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/app/helpers/jwt.hepler.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/helpers/jwt.hepler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/app/helpers/user.helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/helpers/user.helper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/app/middlewares/auth.mw.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/middlewares/auth.mw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/app/middlewares/checkRequiredFields.mw.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/middlewares/checkRequiredFields.mw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/app/middlewares/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/middlewares/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/app/models/book.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/models/book.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/app/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/models/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/app/models/user.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/models/user.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/app/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/app/routes/public.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/routes/public.route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/app/routes/secure.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/routes/secure.route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/swagger.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/swagger.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -72,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-56">
-              <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+            <state relative-caret-position="-348">
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -288,7 +260,7 @@
       <workItem from="1569160436965" duration="3827000" />
       <workItem from="1570541289631" duration="1103000" />
       <workItem from="1570612383982" duration="1747000" />
-      <workItem from="1602243786772" duration="38894000" />
+      <workItem from="1602243786772" duration="39306000" />
     </task>
     <task id="LOCAL-00001" summary="npm i">
       <created>1569020293385</created>
@@ -360,11 +332,25 @@
       <option name="project" value="LOCAL" />
       <updated>1602353591397</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fix">
+      <created>1602353789809</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1602353789809</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix">
+      <created>1602353948024</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1602353948024</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52539000" />
+    <option name="totallyTimeSpent" value="52951000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -383,7 +369,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.8185654" visible="true" weight="0.4255102" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.8185654" visible="true" weight="0.50102043" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.1814346" side_tool="true" weight="0.4255102" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -634,8 +620,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-56">
-          <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+        <state relative-caret-position="-348">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
         </state>
       </provider>
     </entry>
