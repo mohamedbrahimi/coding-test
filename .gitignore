@@ -1,0 +1,6 @@
+/build
+build
+# dependencies
+/node_modules
+/public/assets/image
+package-lock.json
