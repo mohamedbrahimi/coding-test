@@ -1,40 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea5f748a-dcd8-4783-9fd7-e2fc5d1fcae1" name="Default Changelist" comment="added swagger.js config file">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/swagger-ui-nodejs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/endpoints.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/condig/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/condig/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/condig/jwt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/condig/mongoose.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/condig/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/controllers/auth.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/controllers/crud.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/controllers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/helpers/book.helper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/helpers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/helpers/jwt.hepler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/helpers/user.helper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/middlewares/auth.mw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/middlewares/checkRequiredFields.mw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/middlewares/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/models/book.model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/models/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/models/user.model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/routes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/routes/public.route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/routes/secure.route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swagger.js" afterDir="false" />
+    <list default="true" id="ea5f748a-dcd8-4783-9fd7-e2fc5d1fcae1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/endpoints.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/endpoints.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/condig/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/condig/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/condig/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/condig/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/condig/jwt.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/condig/jwt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/condig/mongoose.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/condig/mongoose.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/condig/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/condig/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/controllers/auth.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/controllers/auth.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/controllers/crud.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/controllers/crud.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/controllers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/controllers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/helpers/book.helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/helpers/book.helper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/helpers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/helpers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/helpers/jwt.hepler.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/helpers/jwt.hepler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/helpers/user.helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/helpers/user.helper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/middlewares/auth.mw.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/middlewares/auth.mw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/middlewares/checkRequiredFields.mw.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/middlewares/checkRequiredFields.mw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/middlewares/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/middlewares/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/models/book.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/models/book.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/models/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/models/user.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/models/user.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/routes/public.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/routes/public.route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/routes/secure.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/routes/secure.route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/swagger.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/swagger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -67,26 +63,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="117" selection-start-column="17" selection-end-column="117" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-56">
+              <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -178,9 +174,9 @@
         <option value="$PROJECT_DIR$/swagger.js" />
         <option value="$PROJECT_DIR$/src/app/routes/secure.route.js" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -292,7 +288,7 @@
       <workItem from="1569160436965" duration="3827000" />
       <workItem from="1570541289631" duration="1103000" />
       <workItem from="1570612383982" duration="1747000" />
-      <workItem from="1602243786772" duration="37278000" />
+      <workItem from="1602243786772" duration="38894000" />
     </task>
     <task id="LOCAL-00001" summary="npm i">
       <created>1569020293385</created>
@@ -322,14 +318,57 @@
       <option name="project" value="LOCAL" />
       <updated>1569020380100</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added swagger.js config file">
+      <created>1602351944545</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602351944545</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added swagger.js config file">
+      <created>1602351975751</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602351975751</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added swagger.js config file">
+      <created>1602352477406</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602352477406</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added swagger.js config file">
+      <created>1602352914891</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602352914891</updated>
+    </task>
+    <task id="LOCAL-00009" summary="debug">
+      <created>1602353366043</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1602353366043</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix">
+      <created>1602353591397</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1602353591397</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50923000" />
+    <option name="totallyTimeSpent" value="52539000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2411091" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -345,7 +384,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.8185654" visible="true" weight="0.4255102" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.1814346" side_tool="true" visible="true" weight="0.4255102" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.1814346" side_tool="true" weight="0.4255102" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -359,7 +398,9 @@
     <MESSAGE value="added endpoints file" />
     <MESSAGE value="added server.js file" />
     <MESSAGE value="added swagger.js config file" />
-    <option name="LAST_COMMIT_MESSAGE" value="added swagger.js config file" />
+    <MESSAGE value="debug" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/swagger.js" />
@@ -567,24 +608,10 @@
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="117" selection-start-column="17" selection-end-column="117" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
@@ -593,8 +620,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-56">
+          <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
         </state>
       </provider>
     </entry>
