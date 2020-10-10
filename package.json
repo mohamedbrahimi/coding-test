@@ -7,8 +7,8 @@
     "start_dev": "npx babel-node server.js",
     "start": "node build/server.js",
     "test": "mocha --require @babel/register  test/ --recursive --require @babel/polyfill",
-    "clean": "rimraf build",
-    "build": "npm run clean && babel ./ --out-dir build/ --ignore ./node_modules,./package.json,./npm-debug.log --copy-files",
+    "clean": "rm -rf build",
+    "build": "npm run clean && babel ./ --out-dir build/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
     "build_start": "npm run-script build && npm run-script start"
   },
   "author": "Mophamed Aissa Brahimi",
@@ -17,7 +17,6 @@
     "presets": [
       [
         "@babel/preset-env",
-        "@babel/preset-react",
         {
           "targets": {
             "node": "current"
@@ -30,8 +29,7 @@
       "@babel/plugin-syntax-import-meta",
       "@babel/plugin-proposal-class-properties",
       "@babel/plugin-proposal-json-strings",
-      "@babel/plugin-proposal-optional-chaining",
-      "@babel/plugin-syntax-jsx"
+      "@babel/plugin-proposal-optional-chaining"
     ]
   },
   "dependencies": {
@@ -55,12 +53,10 @@
     "@babel/plugin-proposal-optional-chaining": "^7.7.5",
     "@babel/plugin-syntax-dynamic-import": "^7.7.4",
     "@babel/plugin-syntax-import-meta": "^7.7.4",
-    "@babel/plugin-syntax-jsx": "^7.10.4",
     "@babel/polyfill": "^7.8.7",
     "@babel/preset-env": "^7.7.7",
     "@babel/preset-react": "^7.10.4",
     "@babel/register": "^7.9.0",
-    "add": "^2.0.6",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.0.1",

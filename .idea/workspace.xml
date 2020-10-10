@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea5f748a-dcd8-4783-9fd7-e2fc5d1fcae1" name="Default Changelist" comment="">
+    <list default="true" id="ea5f748a-dcd8-4783-9fd7-e2fc5d1fcae1" name="Default Changelist" comment="fix">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/endpoints.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/endpoints.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/condig/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/condig/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/condig/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/condig/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/condig/jwt.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/condig/jwt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/condig/mongoose.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/condig/mongoose.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/condig/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/condig/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/controllers/auth.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/controllers/auth.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/controllers/crud.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/controllers/crud.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/controllers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/controllers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/helpers/book.helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/helpers/book.helper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/helpers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/helpers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/helpers/jwt.hepler.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/helpers/jwt.hepler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/helpers/user.helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/helpers/user.helper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/middlewares/auth.mw.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/middlewares/auth.mw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/middlewares/checkRequiredFields.mw.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/middlewares/checkRequiredFields.mw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/middlewares/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/middlewares/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/models/book.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/models/book.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/models/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/models/user.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/models/user.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/routes/public.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/routes/public.route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/app/routes/secure.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/app/routes/secure.route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/swagger.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/swagger.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -41,20 +71,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/endpoints.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-348">
-              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#0#63#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -64,15 +106,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="50" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/condig/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -147,8 +180,8 @@
         <option value="$PROJECT_DIR$/src/app/routes/secure.route.js" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/server.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -260,7 +293,7 @@
       <workItem from="1569160436965" duration="3827000" />
       <workItem from="1570541289631" duration="1103000" />
       <workItem from="1570612383982" duration="1747000" />
-      <workItem from="1602243786772" duration="39306000" />
+      <workItem from="1602243786772" duration="39894000" />
     </task>
     <task id="LOCAL-00001" summary="npm i">
       <created>1569020293385</created>
@@ -346,17 +379,31 @@
       <option name="project" value="LOCAL" />
       <updated>1602353948024</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fix">
+      <created>1602354395283</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1602354395283</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fix">
+      <created>1602354580426</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1602354580426</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52951000" />
+    <option name="totallyTimeSpent" value="53539000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2411091" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2411091" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="GraphQL" />
@@ -368,8 +415,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.8185654" visible="true" weight="0.50102043" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32959184" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.8185654" visible="true" weight="0.50102043" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.1814346" side_tool="true" weight="0.4255102" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -461,16 +508,6 @@
           <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/endpoints.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -594,6 +631,23 @@
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/endpoints.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -604,24 +658,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-348">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
