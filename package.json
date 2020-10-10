@@ -8,7 +8,7 @@
     "start": "node build/server.js",
     "test": "mocha --require @babel/register  test/ --recursive --require @babel/polyfill",
     "clean": "rm -rf build",
-    "build": "npm run clean && babel ./ --out-dir build/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
+    "build0": "npm run clean && babel ./ --out-dir build/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
     "build_start": "npm run-script build && npm run-script start"
   },
   "author": "Mophamed Aissa Brahimi",
@@ -21,10 +21,7 @@
           "targets": {
             "node": "current"
           }
-        },
-        "jsx",
-        "flow",
-        "typescript"
+        }
       ]
     ],
     "plugins": [
@@ -56,7 +53,6 @@
     "@babel/plugin-proposal-optional-chaining": "^7.7.5",
     "@babel/plugin-syntax-dynamic-import": "^7.7.4",
     "@babel/plugin-syntax-import-meta": "^7.7.4",
-    "@babel/plugin-transform-typescript": "^7.11.0",
     "@babel/polyfill": "^7.8.7",
     "@babel/preset-env": "^7.7.7",
     "@babel/preset-react": "^7.10.4",
