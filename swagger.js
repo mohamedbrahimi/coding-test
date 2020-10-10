@@ -4,14 +4,15 @@ import swaggerJsDoc from 'swagger-jsdoc';
 const options = {
     swaggerDefinition: {
         info: {
-            title: 'Test Swagger API',
+            title: 'API Documentation ...',
             version: '1.0.0',
             description: 'Auto generation of code documentation with thanks to swagger api'
         },
-        basePath: '/'
+        basePath: '/',
     },
     apis: [
-        'endpoints.js'
+        'src/app/routes/public.route.js',
+        'src/app/routes/secure.route.js',
     ]
 }
 
