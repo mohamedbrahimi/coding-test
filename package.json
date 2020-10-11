@@ -4,7 +4,7 @@
   "description": "using swagger ui with nodejs ",
   "main": "server.js",
   "scripts": {
-    "start": "npx babel-node server.js",
+    "start": "npx babel-node server.js"
   },
   "author": "Mophamed Aissa Brahimi",
   "license": "ISC",
