@@ -8,7 +8,7 @@
     "start": "node build/server.js",
     "test": "mocha --require @babel/register  test/ --recursive --require @babel/polyfill",
     "clean": "rm -rf build",
-    "build0": "npm run clean && babel ./ --out-dir build/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
+    "build": "npm run clean && babel ./ --out-dir build/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
     "build_start": "npm run-script build && npm run-script start"
   },
   "author": "Mophamed Aissa Brahimi",
