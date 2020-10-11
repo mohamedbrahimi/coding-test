@@ -4,12 +4,7 @@
   "description": "using swagger ui with nodejs ",
   "main": "server.js",
   "scripts": {
-    "start_dev": "npx babel-node server.js",
-    "start": "node build/server.js",
-    "test": "mocha --require @babel/register  test/ --recursive --require @babel/polyfill",
-    "clean": "rm -rf build",
-    "build": "npm run clean && babel ./ --out-dir build/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
-    "build_start": "npm run-script build && npm run-script start"
+    "start": "npx babel-node server.js",
   },
   "author": "Mophamed Aissa Brahimi",
   "license": "ISC",
